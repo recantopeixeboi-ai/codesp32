@@ -45,7 +45,7 @@ const char* password = "82520519";
 
 // Configurações do Mercado Pago
 String accessToken = "APP_USR-869554720330327-02070-773151d2e61c73be0c63ff99d00ea4d-71134490";//monica
-//String accessToken = "APP_USR-2364615467141719-041313-17880727991cd28016603b281693e342-255609734";//james
+//String accessToken = "APP_USR-236461546714171-04131-17880727991cd28016603b281693e34-25560973";//james
 String userId = "SEU_USER_ID_MERCADO_PAGO";
 //APP_USR-4344905239967248-020614-9cf10fe900ddb3836f91e23f47d9746f-3184584858
 // Variáveis globais
@@ -120,7 +120,7 @@ void drawQRCode() {
  
 }
 
-// Função para gerar QR Code de pagamento
+// Função para gerar QR Code de pagamento 9324
 void gerarQRCode() {
   if (WiFi.status() == WL_CONNECTED) {
     HTTPClient http;
