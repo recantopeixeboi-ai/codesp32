@@ -13,7 +13,7 @@
 
 
 // Configurações do Display ST7735
-#define TFT_CS    5    // 5
+#define TFT_CS    5    // 5 
 #define TFT_DC    15   // 15
 #define TFT_RST   19   // 19
 #define TFT_SDA   23   // 23
@@ -34,7 +34,7 @@ QRcode_ST7735  qrcode(&tft);
 
 // Configurações do Botão e LED
 #define BUTTON_PIN 13
-#define CREDITO_PIN 12  //12
+#define CREDITO_PIN 12  //12   40f5
 #define LED_PIN    2  //2
 #define  buzzer   21
 Pushbutton button(BUTTON_PIN);
@@ -44,7 +44,7 @@ const char* ssid = "DELTA_FIBRA_EMPORIO";
 const char* password = "82520519";
 
 // Configurações do Mercado Pago
-String accessToken = "APP_USR-8695547203303274-020700-773151d2e61c73be0c63ff99d00ea4df-711344905";//monica
+String accessToken = "APP_USR-869554720330327-02070-773151d2e61c73be0c63ff99d00ea4d-71134490";//monica
 //String accessToken = "APP_USR-2364615467141719-041313-17880727991cd28016603b281693e342-255609734";//james
 String userId = "SEU_USER_ID_MERCADO_PAGO";
 //APP_USR-4344905239967248-020614-9cf10fe900ddb3836f91e23f47d9746f-3184584858
